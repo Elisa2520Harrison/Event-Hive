@@ -2,7 +2,7 @@ import { Linkedin, Instagram, Facebook,  } from "lucide-react";
 
 export default function Footer() {
     return(
-        <footer className="bg-navy-blue text-white">
+        <footer className="bg-navy-blue text-white absolute w-full bottom-0">
             <h1 className="text-center text-2xl font-bold"><span>Event</span> <span className="text-primary">Hive</span></h1>
             <form className="flex justify-center pt-4">
                 <input className="bg-white" type="email" placeholder="Enter your mail" name="email" />
